@@ -47,3 +47,5 @@
 const a = require('lodash')
 const li = [1,[2,[3,[4]]]]
 console.log(a.flatMapDeep(li))
+
+console.log(__dirname)
